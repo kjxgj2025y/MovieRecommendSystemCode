@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <title>大屏展示</title>
+</head>
+
+<body>
+    <div class="container-fluid-container-fluid-s">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mrbt" style="width: 450px;height: 322px;">
+                <div class="totalbox">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl">
+                            <p style="font-size: 18px;">用户评分级别占比</p>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <div id="container1" style="width: 100%;height: 100%;"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            <div id="container2" style="width: 100%;height: 400px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6 mrbt" style="width: 650px;height: 322px;">
+                <div class=" totalbox">
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl1">
+                            <p style="font-size: 30px;">电影推荐系统数据分析平台</p>
+                        </li>
+                    </ul>
+                    <div class="row" style="padding: 1 2vw">
+                        <div class="col-md-2">
+                            <div class="column" style="width: 110px;">
+                                <p>总纪录数</p>
+                                <div class="purple"><span class="bold">103585</span>条</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="column" style="width: 110px;">
+                                <p>用户总数</p>
+                                <div class="grn"><span class="bold">36571</span>条</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="column" style="width: 110px;">
+                                <p>电影总数</p>
+                                <div class="bule"><span class="bold">1360</span>条</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="column" style="width: 110px;">
+                                <p>电影类型总数</p>
+                                <div class="yel"><span class="bold">31</span>条</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mrbt" style="width: 450px;height: 322px;">
+                <div class="totalbox">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl">
+                            <p style="font-size: 18px;">历史热门电影Top10</p>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="jglx">
+                            <div id="jglxchart" style="width: 100%;height: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mrbt" style="width: 450px;height: 322px;">
+                <div class="totalbox">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl">
+                            <p style="font-size: 18px;">电影上映数量时间分布</p>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="qst-month">
+                            <div id="qst-monthchart" style="width: 100%;height: 100%;"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="qst-day">
+                            <div id="qst-daychart" style="width: 100%;height: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mrbt-3" style="width: 650px;height: 322px;">
+                <div class="totalbox">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl2">
+                            <p style="font-size: 18px;">用户喜好电影类型占比</p>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="fbt-month">
+                            <div id="fbt-monthchart" style="width: 100%;height: 100%;"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="fbt-day">
+                            <div id="fbt-daychart" style="width: 100%;height: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mrbt" style="width: 450px;height: 322px;">
+                <div class="totalbox">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills totaltitle" role="tablist">
+                        <li class="fl">
+                            <p style="font-size: 18px;">最近热门电影Top10</p>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="zxlx">
+                            <div id="zxlxchart" style="width: 85%;height: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="js/bootstrap.js/"></script>
+    <script src="js/oldie.js"></script>
+    <script src="js/highcharts-zh_CN.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/base.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>
